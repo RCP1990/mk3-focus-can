@@ -1,0 +1,351 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_: 
+BU_: APIM DACMC HCM ICM RCM GFM2 PSCM SASM AWD BCM PCM ABS 
+BO_ 2024 PCM_To_Tester: 8 Vector__XXX
+
+BO_ 2016 Tester_To_PCM: 8 Vector__XXX
+
+BO_ 724 ABSmsg12: 8 Vector__XXX
+
+BO_ 1522 GFM2msg02: 8 Vector__XXX
+
+BO_ 1409 x581: 8 Vector__XXX
+
+BO_ 1109 APIMmsg03: 8 Vector__XXX
+
+BO_ 1077 BCMmsg_x435: 8 Vector__XXX
+   SG_ x435Signal1 : 1|10@0+ (1,0) [0|1023] "" Vector__XXX
+   SG_ x435Signal2 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1056 x420: 8 Vector__XXX
+   SG_ LaunchControlStatus : 50|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1034 BCMmsg_x40A: 8 Vector__XXX
+
+BO_ 1029 BCMmsg_x405: 8 Vector__XXX
+
+BO_ 1024 BCMmsg_x400: 8 Vector__XXX
+
+BO_ 1002 APIMmsg02: 8 Vector__XXX
+
+BO_ 994 APIMmsg01: 8 Vector__XXX
+
+BO_ 948 x3B4: 8 Vector__XXX
+
+BO_ 920 x398: 8 Vector__XXX
+
+BO_ 904 x388: 8 Vector__XXX
+
+BO_ 773 GFM2msg01: 8 Vector__XXX
+   SG_ SuspensionMode : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ FuelLevelB : 33|10@0+ (0.00488759,0) [0|5] "V" Vector__XXX
+   SG_ FuelLevelA : 49|10@0+ (0.00488759,0) [0|5] "V" Vector__XXX
+   SG_ DriveModeButton : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 736 x2E0: 8 Vector__XXX
+
+BO_ 720 ABSmsg11: 8 Vector__XXX
+   SG_ Counter2 : 35|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ Counter1 : 27|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 656 BCMmsg_x290: 8 Vector__XXX
+   SG_ x290Signal1 : 41|10@0+ (1,-511) [-511|512] "" Vector__XXX
+
+BO_ 594 ABSmsg10: 8 Vector__XXX
+   SG_ BrakePressureMeasured : 11|12@0+ (1,0) [0|4095] "" Vector__XXX
+
+BO_ 536 ABSmsg09: 8 Vector__XXX
+   SG_ RotationCount : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 528 ABSmsg07: 8 Vector__XXX
+
+BO_ 520 x208: 8 Vector__XXX
+   SG_ x208Signal1 : 7|16@0+ (1,-32767) [-32767|32768] "" Vector__XXX
+
+BO_ 480 ABSmsg06: 8 Vector__XXX
+   SG_ RearRightWheelRotationCount : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ RearLeftWheelRotationCount : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ FrontRightWheelRotationCount : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ FrontLeftWheelRotationCount : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ AverageFrontWheelSpeed : 39|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+   SG_ Checksum : 59|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ Counter2 : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ Counter1 : 63|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 464 BCMmsg_x1D0: 8 Vector__XXX
+
+BO_ 448 ABSmsg04: 8 Vector__XXX
+   SG_ BrakePressureCalculated : 51|12@0+ (1,0) [0|4095] "" Vector__XXX
+   SG_ ESCMode : 13|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 384 ABSmsg02: 8 Vector__XXX
+   SG_ YawRateMeasured : 35|12@0+ (0.03663,-75) [-75|74.9998] "deg/s" Vector__XXX
+   SG_ LatAccelMeasured : 17|10@0+ (0.00390625,-2) [-2|1.99609] "g" Vector__XXX
+   SG_ VertAccelMeasured : 1|10@0+ (0.00390625,-2) [-2|1.99609] "g" Vector__XXX
+
+BO_ 382 BCMmsg_x17E: 8 Vector__XXX
+   SG_ x17ESignal1 : 9|10@0+ (1,0) [0|1023] "" Vector__XXX
+   SG_ DriveModeRequest : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 352 ABSmsg01: 8 Vector__XXX
+   SG_ LongAccelCalculated : 1|10@0+ (0.00390625,-2) [-2|1.99609] "g" Vector__XXX
+   SG_ LongAccelMeasured : 49|10@0+ (0.00390625,-2) [-2|1.99609] "g" Vector__XXX
+   SG_ Checksum : 43|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ AverageRearWheelSpeed : 23|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+   SG_ Counter2 : 54|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ Counter1 : 47|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 336 BCMmsg_x150: 8 Vector__XXX
+   SG_ x150Signal1 : 7|16@0+ (1,-32767) [-32767|32768] "" Vector__XXX
+
+BO_ 320 x140: 8 Vector__XXX
+   SG_ x140Signal1 : 17|10@0+ (1,0) [0|1023] "" Vector__XXX
+
+BO_ 176 xB0: 8 Vector__XXX
+   SG_ xB0Signal1 : 47|16@0+ (1,-32767) [-32767|32768] "" Vector__XXX
+
+BO_ 75 x4B: 8 Vector__XXX
+
+BO_ 74 BCMmsg_x4A: 8 Vector__XXX
+
+BO_ 48 BCMmsg_x30: 8 Vector__XXX
+
+BO_ 896 x380: 8 Vector__XXX
+   SG_ x380Signal1 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ x380Signal2 : 33|10@0+ (1,0) [0|1023] "" Vector__XXX
+   SG_ x380Signal3 : 49|10@0+ (1,0) [0|1023] "" Vector__XXX
+   SG_ FuelLevelFiltered : 17|10@0+ (0.4,0) [0|102] "%" Vector__XXX
+
+BO_ 832 PCMmsg17: 8 Vector__XXX
+   SG_ x340Signal2 : 52|2@0+ (1,0) [0|3] "" Vector__XXX
+   SG_ x340Signal1 : 38|2@0+ (1,0) [0|3] "" Vector__XXX
+   SG_ AmbientAirTemp : 63|8@0- (0.25,0) [-32|31.75] "C" Vector__XXX
+
+BO_ 752 PCMmsg16: 8 Vector__XXX
+   SG_ PCMmsg16Signal2 : 15|2@0+ (1,0) [0|3] "" Vector__XXX
+   SG_ EngineCoolantTemp : 33|10@0+ (1,-60) [-60|963] "C" Vector__XXX
+   SG_ IntakeAirTemp : 49|10@0+ (0.25,-127) [-127|128.75] "C" Vector__XXX
+   SG_ PCMmsg16Signal1 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 728 PCMmsg15: 8 Vector__XXX
+
+BO_ 640 PCMmsg14: 8 Vector__XXX
+   SG_ PCMmsg14Signal2 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ PCMmsg14Signal1 : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 624 PCMmsg13: 8 Vector__XXX
+   SG_ PCMmsg13Signal1 : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 512 PCMmsg12: 8 Vector__XXX
+   SG_ EngineRotationCounter : 31|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 416 PCMmsg11: 8 Vector__XXX
+   SG_ PCMmsg11Signal1 : 23|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 312 PCMmsg10: 8 Vector__XXX
+   SG_ ClutchPedalPositionROC : 15|8@0+ (1,-125) [-125|130] "" Vector__XXX
+   SG_ ClutchPedalPosition : 17|10@0+ (0.1,0) [0|102.3] "%" Vector__XXX
+
+BO_ 304 PCMmsg09: 8 Vector__XXX
+   SG_ VehicleSpeed : 55|16@0+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+
+BO_ 288 PCMmsg08: 8 Vector__XXX
+
+BO_ 248 PCMmsg07: 8 Vector__XXX
+   SG_ EngineOilTemp : 15|8@0+ (1,-50) [-50|205] "C" Vector__XXX
+   SG_ PTUTemp : 63|8@0+ (1,-60) [-60|195] "C" Vector__XXX
+   SG_ Boost : 47|8@0+ (0.14,0) [0|20] "psi" Vector__XXX
+
+BO_ 192 PCMmsg06: 8 Vector__XXX
+
+BO_ 160 PCMmsg05: 8 Vector__XXX
+   SG_ UnknownTorque : 55|16@0+ (1,-32767) [-32767|32768] "Nm" Vector__XXX
+
+BO_ 112 PCMmsg02: 8 Vector__XXX
+   SG_ EngineTorqueDuplicate : 34|11@0+ (1,-500) [-500|1547] "Nm" Vector__XXX
+   SG_ EngineTorque : 18|11@0+ (1,-500) [-500|1547] "Nm" Vector__XXX
+
+BO_ 96 PCMmsg01: 8 Vector__XXX
+
+BO_ 704 AWDmsg02: 8 Vector__XXX
+   SG_ TorqueVectoringActualRightTorque : 51|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+   SG_ TorqueVectoringActualLeftTorque : 19|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+   SG_ TorqueVectoringRequestedRightTor : 35|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+   SG_ TorqueVectoringRequestedLeftTorq : 3|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+
+BO_ 432 AWDmsg01: 8 Vector__XXX
+   SG_ DriveMode : 55|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ TorqueVectoringTotalRequestedTor : 27|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+   SG_ TorqueVectoringTotalActualTorque : 51|12@0+ (1,0) [0|4095] "Nm" Vector__XXX
+
+BO_ 784 x310: 8 Vector__XXX
+   SG_ x310Signal1 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ FrontWiperStatus : 55|5@0+ (1,0) [0|31] "" Vector__XXX
+
+BO_ 200 BCMmsg_xC8: 8 Vector__XXX
+   SG_ ParkingBrakeStatus : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ IgnitionStatus : 23|5@0+ (1,0) [0|31] "" Vector__XXX
+   SG_ HeadlampKnobPosition : 57|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 16 SASMmsg01: 8 Vector__XXX
+   SG_ SteeringAngleSign : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ Checksum : 11|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ SteeringAngleRateOfChange : 22|15@0+ (1,0) [0|32767] "" Vector__XXX
+   SG_ SteeringAngleRateOfChangeFiltere : 38|15@0+ (1,0) [0|32767] "" Vector__XXX
+   SG_ Counter2 : 3|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ Counter1 : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ SteeringDirectionSign : 23|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ SteeringWheelAngle : 54|15@0+ (0.04395,0) [0|1440.11] "Degrees" Vector__XXX
+
+BO_ 400 ABSmsg03: 8 Vector__XXX
+   SG_ RearRightWheelSpeed : 54|15@0+ (0.011343,0) [0|371.676] "km/h" Vector__XXX
+   SG_ RearLeftWheelSpeed : 38|15@0+ (0.011343,0) [0|371.676] "km/h" Vector__XXX
+   SG_ FrontRightWheelSpeed : 22|15@0+ (0.011343,0) [0|371.676] "km/h" Vector__XXX
+   SG_ FrontLeftWheelSpeed : 6|15@0+ (0.011343,0) [0|371.676] "km/h" Vector__XXX
+
+BO_ 608 BCMmsg_x260: 8 Vector__XXX
+   SG_ x260Signal1 : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+   SG_ ESCButton : 44|1@0+ (1,0) [0|1] "" Vector__XXX
+   SG_ AutoStartStopButton : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 531 ABSmsg08: 8 Vector__XXX
+   SG_ YawRateCalculatedDuplicate : 51|12@0+ (0.03663,-75) [-75|74.9998] "deg/s" Vector__XXX
+   SG_ YawRateCalculated : 35|12@0+ (0.03663,-75) [-75|74.9998] "deg/s" Vector__XXX
+   SG_ Counter2 : 55|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ Counter1 : 11|4@0+ (1,0) [0|15] "" Vector__XXX
+   SG_ BrakePressureMeasured : 19|12@0+ (1,0) [0|4095] "" Vector__XXX
+
+BO_ 144 PCMmsg04: 8 Vector__XXX
+   SG_ EngineSpeedROC : 17|10@0+ (1,-511) [-511|512] "" Vector__XXX
+   SG_ EngineSpeed : 35|12@0+ (2,0) [0|8190] "RPM" Vector__XXX
+
+BO_ 128 PCMmsg03: 8 Vector__XXX
+   SG_ ThrottlePositionROC : 23|8@0+ (1,-125) [-125|130] "" Vector__XXX
+   SG_ WheelTorque : 47|16@0+ (1,-32767) [-32767|32768] "Nm" Vector__XXX
+   SG_ BrakePedalStatus : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+   SG_ ThrottlePedalPosition : 1|10@0+ (0.1,0) [0|102.3] "%" Vector__XXX
+
+BO_ 864 BCMmsg_x360: 8 Vector__XXX
+   SG_ engine_status : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 5000;
+BA_DEF_ SG_ "SystemSignalLongSymbol" STRING ;
+BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
+BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
+BA_DEF_ BO_ "isj1939dbc" INT 0 0;
+BA_ "GenMsgCycleTime" BO_ 724 60;
+BA_ "GenMsgCycleTime" BO_ 1522 1000;
+BA_ "GenMsgCycleTime" BO_ 1409 1000;
+BA_ "GenMsgCycleTime" BO_ 1109 100;
+BA_ "GenMsgCycleTime" BO_ 1077 300;
+BA_ "GenMsgCycleTime" BO_ 1056 600;
+BA_ "GenMsgCycleTime" BO_ 1034 125;
+BA_ "GenMsgCycleTime" BO_ 1029 250;
+BA_ "GenMsgCycleTime" BO_ 1024 250;
+BA_ "GenMsgCycleTime" BO_ 1002 1000;
+BA_ "GenMsgCycleTime" BO_ 994 1000;
+BA_ "GenMsgCycleTime" BO_ 948 300;
+BA_ "GenMsgCycleTime" BO_ 920 1000;
+BA_ "GenMsgCycleTime" BO_ 904 800;
+BA_ "GenMsgCycleTime" BO_ 773 90;
+BA_ "GenMsgCycleTime" BO_ 736 70;
+BA_ "GenMsgCycleTime" BO_ 720 40;
+BA_ "GenMsgCycleTime" BO_ 656 30;
+BA_ "GenMsgCycleTime" BO_ 594 20;
+BA_ "GenMsgCycleTime" BO_ 536 30;
+BA_ "GenMsgCycleTime" BO_ 528 20;
+BA_ "GenMsgCycleTime" BO_ 520 25;
+BA_ "GenMsgCycleTime" BO_ 480 20;
+BA_ "GenMsgCycleTime" BO_ 464 20;
+BA_ "GenMsgCycleTime" BO_ 448 20;
+BA_ "GenMsgCycleTime" BO_ 384 20;
+BA_ "GenMsgCycleTime" BO_ 382 100;
+BA_ "GenMsgCycleTime" BO_ 352 20;
+BA_ "GenMsgCycleTime" BO_ 336 20;
+BA_ "GenMsgCycleTime" BO_ 320 20;
+BA_ "GenMsgCycleTime" BO_ 176 20;
+BA_ "GenMsgCycleTime" BO_ 75 1000;
+BA_ "GenMsgCycleTime" BO_ 74 1000;
+BA_ "GenMsgCycleTime" BO_ 48 10;
+BA_ "GenMsgCycleTime" BO_ 896 300;
+BA_ "GenMsgCycleTime" BO_ 832 120;
+BA_ "GenMsgCycleTime" BO_ 752 90;
+BA_ "GenMsgCycleTime" BO_ 728 60;
+BA_ "GenMsgCycleTime" BO_ 640 30;
+BA_ "GenMsgCycleTime" BO_ 624 30;
+BA_ "GenMsgCycleTime" BO_ 512 25;
+BA_ "GenMsgCycleTime" BO_ 416 20;
+BA_ "GenMsgCycleTime" BO_ 312 20;
+BA_ "GenMsgCycleTime" BO_ 304 20;
+BA_ "GenMsgCycleTime" BO_ 288 20;
+BA_ "GenMsgCycleTime" BO_ 248 20;
+BA_ "GenMsgCycleTime" BO_ 192 20;
+BA_ "GenMsgForegroundColor" BO_ 192 "#000000";
+BA_ "GenMsgCycleTime" BO_ 160 15;
+BA_ "GenMsgCycleTime" BO_ 112 20;
+BA_ "GenMsgCycleTime" BO_ 96 15;
+BA_ "GenMsgCycleTime" BO_ 704 50;
+BA_ "SystemSignalLongSymbol" SG_ 704 TorqueVectoringRequestedRightTor "TorqueVectoringRequestedRightTor";
+BA_ "SystemSignalLongSymbol" SG_ 704 TorqueVectoringRequestedLeftTorq "TorqueVectoringRequestedLeftTorq";
+BA_ "GenMsgCycleTime" BO_ 432 30;
+BA_ "SystemSignalLongSymbol" SG_ 432 TorqueVectoringTotalRequestedTor "TorqueVectoringTotalRequestedTor";
+BA_ "GenMsgCycleTime" BO_ 784 100;
+BA_ "GenMsgCycleTime" BO_ 200 20;
+BA_ "GenMsgCycleTime" BO_ 16 10;
+BA_ "SystemSignalLongSymbol" SG_ 16 SteeringAngleRateOfChangeFiltere "SteeringAngleRateOfChangeFiltere";
+BA_ "GenMsgCycleTime" BO_ 400 10;
+BA_ "GenMsgCycleTime" BO_ 608 25;
+BA_ "GenMsgCycleTime" BO_ 531 20;
+BA_ "GenMsgCycleTime" BO_ 144 10;
+BA_ "GenMsgCycleTime" BO_ 128 20;
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "SystemSignalLongSymbol" "";
+BA_DEF_DEF_ "GenMsgBackgroundColor" "#1e1e1e";
+BA_DEF_DEF_ "GenMsgForegroundColor" "#ffffff";
+BA_DEF_DEF_ "isj1939dbc" 0;
+CM_ BO_ 1034 "sends vin over 3 consecutive messages";
+CM_ BO_ 464 "BCM to PCM";
+CM_ BO_ 96 "PCM to BCM - PATS related?";
+VAL_ 448 ESCMode 3 "Launch" 2 "Sport" 1 "ESC Off" 0 "Normal";
+VAL_ 382 DriveModeRequest 11 "Hill Descent Control" 10 "Dynamic Mapping" 9 "Unknown - Default Mapping" 8 "Mud" 7 "Sand" 6 "Unknown - Default Mapping" 5 "Grass" 4 "Reverse Characteristics" 3 "Unknown - Default Mapping" 2 "Winter" 1 "Sport" 0 "Normal";
+VAL_ 432 DriveMode 2 "Drift" 1 "Sport" 0 "Normal";
+VAL_ 200 ParkingBrakeStatus 1 "Set" 0 "Not Set";
+VAL_ 200 IgnitionStatus 9 "Cranking" 5 "Post Ignition" 4 "Accessory" 7 "Running" 6 "Ignition On" 3 "Post Accessory" 2 "Key Approved" 1 "Key Recently Out" 0 "Key Out";
+VAL_ 200 HeadlampKnobPosition 3 "Auto Lighting" 2 "Low Beams" 1 "Parking Lights" 0 "Lights Off";
+VAL_ 16 SteeringAngleSign 1 "CW" 0 "CCW";
+VAL_ 16 SteeringDirectionSign 1 "CW" 0 "CCW";
+VAL_ 608 AutoStartStopButton 1 "Pressed" 0 "Not Pressed";
+VAL_ 128 BrakePedalStatus 1 "Pressed" 0 "Not Pressed";
+VAL_ 864 engine_status 183 "Engine_Running" 2 "Engine_Off" 191 "Engine_Recently_Started" 0 "Engine_Idling" 186 "Engine_Kill_(turning_off)";
